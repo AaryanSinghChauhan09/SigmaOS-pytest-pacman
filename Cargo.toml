@@ -1,0 +1,8 @@
+[package]
+name = "sigmaos-pytest-pacman"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "pytest helpers for package-manager tests — SigmaOS component inspired by Arch Linux infrastructure."
+
+[dependencies]
