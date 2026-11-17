@@ -3,7 +3,7 @@ name = "SigmaOS-pytest-pacman"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "pytest-pacman component"
+description = "SigmaOS pytest-pacman component (Arch Linux inspired)"
 upstream = []
 
 [contract]
