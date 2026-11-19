@@ -1,8 +1,15 @@
 [package]
-name = "sigmaos-pytest-pacman"
+name = "SigmaOS-pytest-pacman"
 version = "0.1.0"
 edition = "2021"
-license = "MIT"
-description = "pytest helpers for package-manager tests — SigmaOS component inspired by Arch Linux infrastructure."
+license = "Apache-2.0"
+description = "SigmaOS pytest_pacman component"
+
+[lib]
+name = "pytest_pacman"
+path = "src/lib.rs"
 
 [dependencies]
+thiserror = "1"
+
+[dev-dependencies]
